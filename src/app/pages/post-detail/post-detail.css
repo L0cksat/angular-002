@@ -16,8 +16,15 @@
   margin-top: 10px;
 }
 
-button {
+.btn-danger {
   background-color: red;
+  border-radius: 5px;
+  color: white;
+  padding: 5px;
+}
+
+.btn {
+    background-color: blue;
   border-radius: 5px;
   color: white;
   padding: 5px;

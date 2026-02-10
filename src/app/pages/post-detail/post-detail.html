@@ -10,9 +10,11 @@
     </p>
 
     <div class="actions">
-      <button type="button" class="btn danger" (click)="deletePost(p.id)">
+      <a class="btn" [routerLink]="['/posts', p.id, 'edit']">Editar</a>
+
+      <button type="button" class="btn-danger" (click)="deletePost(p.id)">
         Borrar
-      </button>
+      </button> 
     </div>
   </section>
 } @else {
